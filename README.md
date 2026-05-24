@@ -47,7 +47,7 @@ A Python-based intelligent chatbot that interacts with users, understands querie
 chatbot/
 ├── chatbot.py          # Main chatbot logic
 ├── requirements.txt    # Project dependencies
-├── screenshots/        # Sample interaction screenshots
+├── index.html          # Frontend Part
 └── README.md           # Project documentation
 ```
 
