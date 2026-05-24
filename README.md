@@ -70,9 +70,17 @@ cd chatbot
 pip install -r requirements.txt
 ```
 
-**4. Run the chatbot:**
+**4.Configure Environment Variables**
+
+Create a `.env` file and add your API credentials:
+
+```env
+GROQ_API_KEY=YOUR_API_KEY
+```
+
+**5. Run the chatbot:**
 ```bash
-python chatbot.py
+uvicorn filename:app --reload
 ```
 
 
